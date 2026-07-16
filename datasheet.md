@@ -4,15 +4,13 @@
 > **Modèle Gebru et al. (2018), 7 sections, 2 pages max.**
 > Signée binôme.
 
-**Auteurs** : <prénom1>, <prénom2>
-**Date** : <date>
+**Auteurs** : Fernando, Alex
+**Date** : 16/07/2026
 **Version** : v1.0.0
 
 ## 1. Motivation
 
-> Pourquoi ce dataset existe ? Qui l'a créé ?
-
-- ...
+> Ce dataset est destiné à entraîner un modèle de scoring RH pour prédire la probabilité qu'un employé ait un revenu supérieur à 50K. Le dataset combine les données tabulaires du recensement UCI Adult Income (1994) avec des commentaires de managers synthétiques, afin d'évaluer l'impact des variables sensibles sur les décisions automatisées.
 
 ## 2. Composition
 
@@ -20,13 +18,13 @@
 > **variables sensibles signalées explicitement**, + le résumé du
 > verdict éthique (DI les plus problématiques).
 
-| Aspect | Valeur |
-|---|---|
-| Nombre de lignes | ... |
+| Aspect | Valeur                                                                 |
+|---|------------------------------------------------------------------------|
+| Nombre de lignes | 32561                                                                  |
 | Nombre de colonnes | 16 (14 features UCI + cible `income` + `manager_comments` synthétique) |
-| Cible | `income` : `<=50K` / `>50K` |
-| Distribution cible | ... |
-| Variables sensibles | `sex`, `race`, `native_country`, `marital_status` |
+| Cible | `income` : `<=50K` / `>50K`                                            |
+| Distribution cible | 76%/24%                                                                |
+| Variables sensibles | `sex`, `race`, `native_country`, `marital_status`                      |
 
 **Schéma des colonnes** :
 
